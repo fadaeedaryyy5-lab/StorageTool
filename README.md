@@ -1,3 +1,15 @@
 # Storage Tool
-Android TV box app: adopt external storage, set install location, move apps (via local ADB).
-Build: Actions tab > Build APK > download artifact StorageTool-apk.
+
+اپ اندروید (مخصوص اندروید باکس/TV) برای تنظیم حافظه خارجی از طریق ADB محلی: Adopt کردن دیسک، تنظیم محل پیش‌فرض نصب و انتقال برنامه‌ها به حافظه خارجی.
+
+## ساخت APK
+
+با هر push روی `main` (یا اجرای دستی از تب Actions)، workflow با نام **Build APK** اجرا می‌شود و فایل APK به‌صورت artifact با نام `StorageTool-debug-apk` قابل دانلود است.
+
+## استفاده
+
+1. در تنظیمات برنامه‌نویس، USB debugging و ADB over network را روشن کنید.
+2. APK را نصب و اجرا کنید.
+3. دکمه‌ها را به ترتیب از ۱ تا ۵ استفاده کنید.
+
+> هشدار: Adopt کردن دیسک آن را کاملاً فرمت می‌کند.
